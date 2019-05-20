@@ -130,14 +130,14 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 h1 {
   font-size: 4rem;
