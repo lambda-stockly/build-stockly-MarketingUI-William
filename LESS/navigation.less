@@ -1,0 +1,49 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    width:100%;
+    background: rgb(13,18,43);
+background: linear-gradient(112deg, rgba(13,18,43,1) 6%, rgba(255,255,255,1) 7%);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    h1{
+        padding-bottom: 15px;
+        color: @dark-navy;
+        font-size: 72px;
+        span{
+            color: @cyan;
+        }
+    }
+    nav{
+        a{
+            color: @dark-navy;
+            font-size: 26px;
+            margin: 20px 15px 0px 15px;
+            text-decoration: none;
+            &:hover {
+                color: #5AE5DD;
+                text-emphasis: bold;
+                transition-duration: 0.2s;
+            }
+        }
+        @media @desktop{
+            margin-left: 100px;
+        }
+        @media @big-screen{
+            margin-left:250px;
+        }
+    }
+
+    @media @desktop {
+        background: rgb(13,18,43);
+background: linear-gradient(126deg, rgba(13,18,43,1) 34%, rgba(255,255,255,1) 34%);
+        display: flex;
+        flex-flow: row nowrap;
+        h1{
+            color: @white;
+        }
+        nav{
+        }
+    }
+}
