@@ -285,6 +285,9 @@ img {
 .middle-content h3 span {
   color: #5AE5DD;
 }
+.middle-content p {
+  width: 90%;
+}
 .middle-content .features-bar {
   width: 100%;
   background-color: #0D122B;
@@ -431,7 +434,7 @@ footer h5 {
 }
 .cards-container .card .headline {
   font-size: 25px;
-  font-family: Didot, serif;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .cards-container .card .profile {
   display: flex;
@@ -448,8 +451,11 @@ footer h5 {
 .cards-container .card .profile .img-container img {
   width: 150px;
   height: 150px;
+  border-radius: 100%;
 }
-.cards-container .card .profile span {
+.cards-container .card .profile p {
+  width: 75%;
+  text-align: left;
   padding-left: 10px;
   font-size: 12px;
   letter-spacing: 1px;
