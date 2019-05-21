@@ -185,10 +185,13 @@ img {
 .nav-container h1 span {
   color: #5AE5DD;
 }
+.nav-container nav {
+  margin-bottom: 5px;
+}
 .nav-container nav a {
   color: #0D122B;
   font-size: 26px;
-  margin: 20px 15px 0px 15px;
+  margin: 20px 10px 0px 10px;
   text-decoration: none;
 }
 .nav-container nav a:hover {
@@ -215,6 +218,12 @@ img {
   }
   .nav-container h1 {
     color: #FFFFFF;
+  }
+}
+@media (min-width: 1520px) {
+  .nav-container {
+    background: #0d122b;
+    background: linear-gradient(112deg, #0d122b 18%, #ffffff 4%);
   }
 }
 .top-content {
@@ -434,10 +443,11 @@ footer h5 {
 .cards-container .card .profile .img-container {
   padding-right: 10px;
   border-right: 1px solid #F9F9F9;
-  height: 40px;
+  height: 150px;
 }
 .cards-container .card .profile .img-container img {
-  width: 40px;
+  width: 150px;
+  height: 150px;
 }
 .cards-container .card .profile span {
   padding-left: 10px;
