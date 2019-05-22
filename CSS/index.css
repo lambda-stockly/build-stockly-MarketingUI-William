@@ -314,10 +314,14 @@ header {
   color: #F9F9F9;
   font-size: 21px;
   padding: 5px 5px 5px 5px;
-  border-left: 1px solid #F9F9F9;
-  border-right: 1px solid #F9F9F9;
   text-decoration: none;
   cursor: pointer;
+}
+.middle-content .features-bar .bar-tab:nth-of-type(even) {
+  border-left: 1px solid #F9F9F9;
+}
+.middle-content .features-bar .bar-tab:nth-of-type(3n) {
+  border-left: 1px solid #F9F9F9;
 }
 .middle-content .features-bar .bar-tab:hover {
   background-color: #14C0B3;
@@ -326,7 +330,7 @@ header {
 @media (min-width: 900px) {
   .middle-content .features-bar .bar-tab {
     font-size: 24px;
-    padding: 10px 5px 5px 5px;
+    padding: 10px 7px 5px 7px;
   }
 }
 .middle-content .features-container {
@@ -371,12 +375,15 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #5AE5DD;
   }
   .middle-content .feature .info img {
     width: 48%;
     border-radius: 5px;
     max-width: 400px;
     max-height: 300px;
+    margin-bottom: 10px;
   }
   .middle-content .feature .info p {
     width: 48%;
@@ -386,16 +393,17 @@ header {
 .middle-content button {
   margin: 30px 0px;
   width: 75%;
-  max-width: 500px;
+  max-width: 400px;
   height: 60px;
   border-radius: 10px;
   font-size: 32px;
   color: #0D122B;
-  background-color: #97A2B9;
+  background-color: #FFFFFF;
+  border: 5px solid #FFFFFF;
 }
 .middle-content button:hover {
   color: #FFFFFF;
-  background-color: #0D122B;
+  background-color: #5AE5DD;
   transition-duration: 0.2s;
 }
 footer {
