@@ -338,7 +338,7 @@ img {
 .middle-content button {
   margin: 30px 0px;
   width: 75%;
-  max-width: 400px;
+  max-width: 500px;
   height: 60px;
   border-radius: 10px;
   font-size: 32px;
@@ -434,15 +434,17 @@ footer h5 {
   justify-content: space-between;
   align-items: none;
   flex-direction: column;
-  background-color: #97A2B9;
+  background-color: #475981;
   width: 90%;
   max-width: 800px;
   margin-bottom: 16px;
   padding: 24px;
+  border-radius: 10px;
 }
 .cards-container .card .headline {
   font-size: 25px;
   font-family: 'Merriweather Sans', sans-serif;
+  color: #FFFFFF;
 }
 .cards-container .card .profile {
   display: flex;
@@ -468,4 +470,5 @@ footer h5 {
   font-size: 12px;
   letter-spacing: 1px;
   font-weight: bold;
+  color: #FFFFFF;
 }
