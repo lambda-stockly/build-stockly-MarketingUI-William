@@ -253,7 +253,7 @@ img {
   }
 }
 .top-content h2 {
-  font-size: 36px;
+  font-size: 39px;
   text-align: center;
   color: #0D122B;
 }
@@ -267,6 +267,7 @@ img {
   width: 90%;
   text-align: center;
   margin-bottom: 60px;
+  font-size: 24px;
 }
 .top-content .left img {
   margin: 30px 0px;
@@ -287,6 +288,13 @@ img {
 }
 .middle-content p {
   width: 90%;
+  font-size: 18px;
+}
+.middle-content h4 {
+  width: 80%;
+  text-align: center;
+  font-size: 24px;
+  word-spacing: 1px;
 }
 .middle-content .features-bar {
   width: 100%;
@@ -300,7 +308,7 @@ img {
 .middle-content .features-bar .bar-tab {
   color: #F9F9F9;
   font-size: 21px;
-  padding: 0 5px 0 5px;
+  padding: 5px 5px 5px 5px;
   border-left: 1px solid #F9F9F9;
   border-right: 1px solid #F9F9F9;
   text-decoration: none;
@@ -309,6 +317,12 @@ img {
 .middle-content .features-bar .bar-tab:hover {
   background-color: #14C0B3;
   transition-duration: 0.2s;
+}
+@media (min-width: 900px) {
+  .middle-content .features-bar .bar-tab {
+    font-size: 24px;
+    padding: 10px 5px 5px 5px;
+  }
 }
 .middle-content .features-container {
   background-color: #0D122B;
@@ -322,18 +336,47 @@ img {
   align-items: center;
 }
 .middle-content .feature .headline {
-  font-size: 24px;
+  font-size: 44px;
   margin-bottom: 10px;
+  display: block;
 }
-.middle-content .feature img {
-  width: 95%;
+.middle-content .feature .mobile-features {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.middle-content .feature .mobile-features img {
+  width: 90%;
   border-radius: 5px;
   max-width: 600px;
   max-height: 400px;
 }
-.middle-content .feature p {
+.middle-content .feature .mobile-features p {
   width: 90%;
-  margin-top: 20px;
+  margin: 10px auto;
+}
+.middle-content .feature .info {
+  display: none;
+}
+@media (min-width: 900px) {
+  .middle-content .feature .mobile-features {
+    display: none;
+  }
+  .middle-content .feature .info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  .middle-content .feature .info img {
+    width: 48%;
+    border-radius: 5px;
+    max-width: 600px;
+    max-height: 400px;
+  }
+  .middle-content .feature .info p {
+    width: 45%;
+    margin-top: 20px;
+  }
 }
 .middle-content button {
   margin: 30px 0px;
