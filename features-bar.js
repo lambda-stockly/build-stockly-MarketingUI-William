@@ -14,7 +14,7 @@ function scroll(distance) {
   });
 
   recommend.addEventListener('click', ()=> {
-    scroll(750);
+    scroll(700);
   })
 
   projections.addEventListener('click', ()=> {
