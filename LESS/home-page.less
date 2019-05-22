@@ -1,6 +1,7 @@
 
 
 .top-content {
+    .width();
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -24,6 +25,7 @@
     }
 
     h2{
+        margin: 40px 0px;
         font-size: 39px;
         text-align: center;
         color: @dark-navy;
@@ -43,11 +45,37 @@
             margin: 30px 0px;
         }
     }
+
+    h3{
+        margin: 30px 0px 15px 0px;
+        padding: 30px 0px 0px 0px;
+        color: @dark-navy;
+        font-size: 48px;
+        span{
+            color: @cyan;
+        }
+       }
     
+       p{
+           width: 90%;
+           font-size: 18px;
+       }
+       h4{
+           width: 80%;
+           text-align: center;
+           font-size: 24px;
+           word-spacing: 1px;
+       }
+    
+}
+
+.blue-block{
+    background-color: @dark-navy;
 }
 
 
 .middle-content {
+.width();
    display: flex;
    flex-flow: column nowrap;
    align-items: center;
@@ -56,25 +84,7 @@
 
 
 
-   h3{
-    padding: 30px 0px;
-    color: @dark-navy;
-    font-size: 48px;
-    span{
-        color: @cyan;
-    }
-   }
-
-   p{
-       width: 90%;
-       font-size: 18px;
-   }
-   h4{
-       width: 80%;
-       text-align: center;
-       font-size: 24px;
-       word-spacing: 1px;
-   }
+   
 
 .features-bar{
     width: 100%;
