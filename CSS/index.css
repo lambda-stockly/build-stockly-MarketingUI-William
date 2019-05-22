@@ -455,7 +455,8 @@ footer h5 {
   }
 }
 .tabs .topics .tab:hover {
-  text-decoration: underline;
+  background-color: #5AE5DD;
+  transition-duration: 0.3s;
 }
 .tabs .topics .active-tab {
   background-color: #FFFFFF;

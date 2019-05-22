@@ -22,7 +22,7 @@ class TabLink {
       cards.forEach(card => {
         card.style = 'display: none';
       })
-    this.tabElement.classList.add('tab-active');
+    this.tabElement.classList.add('active-tab');
       this.cards.forEach(card => card.selectCard());
     }
   }
@@ -43,48 +43,3 @@ class TabLink {
   tabs.forEach(tab => {
     new TabLink(tab);
   });
-
-
-
-const leftButton = document.querySelector('.left-button');
-const rightButton = document.querySelector("body > div.carousel > div.right-button");
-const photos = Array.from(document.querySelectorAll('.photo'));
-var photoQueue = 0;
-
-rightButton.addEventListener('click', event => {
-    if(photoQueue < photos.length-1) {
-     photoQueue +=1;
-    } else {
-        photoQueue =0;
-    }
- });
-
-rightButton.addEventListener('click', event => 
-photos.forEach(photo => {
-    photo.classList.add('hidden');
-}));
-
-rightButton.addEventListener('click', event => {
-    photos[photoQueue].classList.remove('hidden');
-});
-
-leftButton.addEventListener('click', event => {
-    if(photoQueue > 0) {
-        photoQueue -=1;
-       } else {
-           photoQueue = photos.length-1;
-       }
-});
-
-
-leftButton.addEventListener('click', event => 
-photos.forEach(photo => {
-    photo.classList.add('hidden');
-}));
-
-leftButton.addEventListener('click', event => {
-    photos[photoQueue].classList.remove('hidden');
-});
-
-
-
