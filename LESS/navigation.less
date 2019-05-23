@@ -2,6 +2,8 @@ header{
    .width();
    box-shadow: 0px 1px 5px rgba(151, 162, 185, 0.2),
     0px 3px 4px rgba(151, 162, 185, 0.12), 0px 2px 4px rgba(151, 162, 185, 0.14);
+    .animated;
+    .fadeInDown;
 }
 
 .nav-container {
@@ -19,28 +21,39 @@ background: linear-gradient(112deg, rgba(13,18,43,1) 6%, rgba(255,255,255,1) 7%)
         padding-left: 5px;
         color: @dark-navy;
         font-size: 72px;
+        .animated;
+        .fadeInDown;
         span{
             color: @cyan;
+        }
+        @media @desktop {
+            .animated;
+            .fadeInLeft;
         }
     }
     nav{
         margin-bottom: 5px;
         a{
+            display: inline-block;
             color: @dark-navy;
             font-size: 26px;
-            margin: 20px 10px 0px 10px;
+            margin: 20px 8px 0px 8px;
             text-decoration: none;
+            
             &:hover {
                 color: #5AE5DD;
                 text-emphasis: bold;
                 transition-duration: 0.2s;
+                .animated;
+            .bounce;
+                
             }
         }
         @media @desktop{
             margin-left: 204px;
         }
-        
-    }
+        }
+    
 
     @media @desktop {
         background: rgb(13,18,43);
