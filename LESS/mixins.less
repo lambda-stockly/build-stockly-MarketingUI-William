@@ -19,3 +19,10 @@
     width: 100%;
     margin: 0 auto;
   }
+
+  .flex(@jc: none, @ai: none, @dir: row) {
+    display: flex;
+    justify-content: @jc;
+    align-items: @ai;
+    flex-direction: @dir;
+  }

@@ -131,6 +131,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  background-color: #F9F9F9;
 }
 html,
 body {
@@ -190,7 +191,7 @@ header {
   top: 0;
   width: 100%;
   background: #0d122b;
-  background: linear-gradient(112deg, #0d122b 6%, #ffffff 7%);
+  background: linear-gradient(112deg, #0d122b 6%, #f9f9f9 7%);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -267,7 +268,7 @@ header {
 @media (min-width: 900px) {
   .nav-container {
     background: #0d122b;
-    background: linear-gradient(126deg, #0d122b 250px, #ffffff 250px);
+    background: linear-gradient(126deg, #0d122b 250px, #f9f9f9 250px);
     display: flex;
     flex-flow: row nowrap;
   }
@@ -291,6 +292,7 @@ footer h5 {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  background-color: #F9F9F9;
 }
 .top-content .hero-image {
   width: 70%;
