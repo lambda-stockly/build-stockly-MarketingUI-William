@@ -275,6 +275,15 @@ header {
     color: #FFFFFF;
   }
 }
+footer {
+  margin: 40px 0px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+footer h5 {
+  font-size: 24px;
+}
 .top-content {
   max-width: 900px;
   width: 100%;
@@ -459,15 +468,6 @@ header {
   color: #FFFFFF;
   background-color: #5AE5DD;
   transition-duration: 0.2s;
-}
-footer {
-  margin: 40px 0px;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-footer h5 {
-  font-size: 24px;
 }
 .tabs {
   border-bottom: 1px solid #F9F9F9;
