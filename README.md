@@ -13,13 +13,13 @@ The two live pages are the index.html and the team.html. Both pages have respect
 animate.less
 
 ## Team
-*Chris Louie
-*Derek Shing
-*Isaac Aderogba
-*Jonathan Taylor
-*Kai Lovingfoss
-*Reed James
-*William Connatser
-*Ruben Ponce
-*Will VanOrder
-*Victor Ruiz
+* Chris Louie
+* Derek Shing
+* Isaac Aderogba
+* Jonathan Taylor
+* Kai Lovingfoss
+* Reed James
+* William Connatser
+* Ruben Ponce
+* Will VanOrder
+* Victor Ruiz
