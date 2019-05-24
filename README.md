@@ -10,16 +10,27 @@ The two live pages are the index.html and the team.html. Both pages have respect
 
 
 ## Libraries Used
-animate.less
+* animate.less
 
 ## Team
-* Chris Louie
-* Derek Shing
-* Isaac Aderogba
-* Jonathan Taylor
-* Kai Lovingfoss
-* Reed James
-* William Connatser
-* Ruben Ponce
-* Will VanOrder
-* Victor Ruiz
+* Kai Lovingfoss (Team Lead) [0]
+* Jonathan Taylor (Front End) [1]
+* Ruben Ponce (Front End)  [2]
+* William Connatser (Backend) [3]
+* Chris Louie (Data Science) [4]
+* Derek Shing (Data Science) [5]
+* Victor Ruiz (iOS) [6]
+* Isaac Aderogba (UI Engineer) [7]
+* Reed James (UI Engineer) [8]
+* Will VanOrder (UI Engineer) [9]
+
+[0]: https://github.com/tryingtokeepup
+[1]: https://github.com/jonyonson
+[2]: https://github.com/RubenPonce
+[3]: https://github.com/williamconnatser
+[4]: https://github.com/Ruwai
+[5]: https://github.com/derek-shing
+[6]: https://github.com/vicxruiz
+[7]: https://github.com/IsaacAderogba
+[8]: https://github.com/coffeelabor
+[9]: https://github.com/wvanorder
